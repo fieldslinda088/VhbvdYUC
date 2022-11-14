@@ -2,7 +2,6 @@ on:
   pull_request:
     branches: [main]
     paths:
-      - 'readme.md'
 jobs:
   lint:
     runs-on: ubuntu-latest
